@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<orion-application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xmlns.oracle.com/oracleas/schema/orion-application-10_0.xsd">
+    <web-module id="Application1-Project1-webapp" path="file:/D:/jdevstudio10133/jdev/mywork/Application1/Project1/public_html/"/>
+    <log>
+        <file path="Application1-oc4j-app.log"/>
+    </log>
+    <jazn provider="XML" location="Application1-jazn-data.xml" default-realm="jazn.com"/>
+    <data-sources path="Application1-data-sources.xml"/>
+</orion-application>
